@@ -1,0 +1,839 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>What if your toilet could talk?</title>
+		<meta name="description" content="A mindfulness exercise about imagining your toilet talking">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="&quot;that poop club&quot;">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+		
+		
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Defaults */
+:root {
+	--font-family: 'Playfair Display', Georgia, serif;
+	--font-family-monospace: Consolas, Monaco, Menlo, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+
+}
+
+/* Theme colors (Light Theme) */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--color-date: #aaa;
+
+	--background-color: #fff;
+
+	--text-color: #000;
+	--text-color-link: var(--text-color);
+	--text-color-link-active: #555;
+
+	--syntax-tab-size: 2;
+}
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+	letter-spacing: -0.015em;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 70em;
+}
+h1 {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 4em;
+	padding-top: 0.5em;
+	color: var(--text-color);
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img{
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+video,
+iframe {
+	width: 100%;
+	height: auto;
+}
+iframe {
+	aspect-ratio: 16/9;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.3;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+	text-decoration: none;
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+#skip-link {
+	text-decoration: none;
+	background: var(--background-color);
+	color: var(--text-color);
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--color-gray-90);
+	border-radius: 2px;
+}
+
+/* Prevent visually-hidden skip link fom pushing content around when focused */
+#skip-link.visually-hidden:focus {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	/* Ensure it is positioned on top of everything else when it is shown */
+	z-index: 999;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	/* border-top: 1px solid var(--color-gray-20); */
+	padding: 3em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1.5em;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-family: var(--font-family);
+	font-weight: 700;
+	flex-grow: 1;
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	font-family: var(--font-family);
+	font-weight: 700;
+	display: flex;
+	gap: .5em 1em;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	/* text-decoration: underline; */
+	text-decoration: none;
+}
+
+/* Posts list */
+.postlist {
+	/* counter-reset: start-from var(--postlist-index); */
+	list-style: none;
+	padding: 0;
+	/* padding-left: 1.5rem; */
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	/* counter-increment: start-from -1; */
+}
+/* .postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	/* content: "" counter(start-from, decimal-leading-zero) ". "; 
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+} */
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	font-family: var(--font-family);
+	font-weight: 500;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: var(--color-date);
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-family: var(--font-family);
+	font-weight: 700;
+	letter-spacing: -0.035em;
+	font-size: 2.35em;
+	font-weight: 700;
+	/* flex-basis: calc(100% - 1.5rem); */
+	padding-right: .3em;
+	text-decoration: none;
+	/* text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px; */
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Slogan Diagram */
+.slogan-diagram {
+	font-family: var(--font-family);
+	text-align: center;
+	padding: 2rem 1rem;
+	background: #fff;
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.slogan-main-text {
+	font-size: 3.5rem;
+	font-weight: 700;
+	margin-bottom: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	gap: 0.2em;
+}
+
+.slogan-word-wrapper {
+	position: relative;
+	display: inline-block;
+}
+
+.slogan-underline {
+	border-bottom: 1px solid #999;
+}
+
+.slogan-caret-wrapper {
+	position: relative;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.2rem;
+	margin: 0 -1.5em;
+	color: #666;
+	font-weight: 400;
+	transform: translateY(0.9em);
+}
+
+.slogan-caret {
+	line-height: 0.75;
+	font-size: 1.5rem;
+	margin-bottom: 0.2em;
+}
+
+.slogan-should {
+	font-size: 1rem;
+	font-style: italic;
+	transform: translateY(-0.6em);
+}
+
+.slogan-annotations {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 4rem;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.slogan-annotation {
+	position: relative;
+	font-size: 0.95rem;
+	line-height: 1.4;
+	color: #444;
+	font-weight: 400;
+}
+
+.slogan-arrow {
+	position: absolute;
+	top: -2.5rem;
+	left: 50%;
+	width: 1px;
+	height: 2.5rem;
+	background: #999;
+}
+
+.slogan-arrow-left {
+	transform: translateX(-50%) rotate(25deg);
+	transform-origin: bottom;
+}
+
+.slogan-arrow-right {
+	transform: translateX(-50%) rotate(-25deg);
+	transform-origin: bottom;
+}
+
+.slogan-arrow::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 6px solid #999;
+}
+
+@media (max-width: 600px) {
+	.slogan-main-text {
+		font-size: 2rem;
+	}
+	.slogan-annotations {
+		grid-template-columns: 1fr;
+		gap: 3rem;
+	}
+	.slogan-arrow {
+		display: none;
+	}
+}
+
+
+.discord-button {
+  display: inline-block;
+  background-color: #dddddd; /* Discord Blurple */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 550;
+  transition: background-color 0.3s;
+}
+
+.discord-button:hover {
+  background-color: #4752C4;
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}</style>
+		
+	</head>
+	<body>
+		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			
+			<a href="/" class="home-link">&quot;that poop club&quot;</a>
+			
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/other/">Other</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+
+		<main id="main">
+			<heading-anchors>
+				
+
+
+<h1 id="what-if-your-toilet-could-talk">What if your toilet could talk?</h1>
+
+<b><time datetime="2026-02-02">February 02, 2026</time></b>
+<br><br>[ &nbsp;
+<ul class="post-metadata">
+	<li><a href="/tags/activity/" class="post-tag">activity</a></li>
+</ul> &nbsp; ]
+
+<p>Welcome to <strong>&quot;that poop club&quot;</strong>! This is an icebreaker activity for anyone new to the world of pooping mindfully.</p>
+<p>For maximum effect, it's recommended to gather a few friends and do this activity in a group. However, if you're doing it solo, it's totally fine too!</p>
+<h2 id="about-this-activity">About this activity</h2>
+<p>This activity has two parts:</p>
+<ol>
+<li><strong>An independent writing section</strong>, where you write a story. Anything you write at this stage will only be seen by yourself unless you decide to share it later, so feel free to express yourselves!</li>
+<li><strong>A sharing section</strong>, where you share (parts of) your story with others (or reflect on them yourself)! It’s not a contest, but it should will reveal some interesting human behaviors to you and your groupmates.</li>
+</ol>
+<p>It's important that for the sharing section, no one is pressured into sharing. This ensures everyone remains comfortable with the exercise and has space to reflect mindfully, instead of constantly worrying about getting picked.</p>
+<p>Also, this might be tempting, but please <strong>do not use large language models</strong> for this exercise - at least for the writing part. Using LLMs for writing makes it harder for you to think and reflect autonomously - plus, when you share, everyone will be able to tell what you wrote is LLM generated. Probably.</p>
+<h2 id="1-the-writing-part">1. The writing part</h2>
+<h3 id="what-if-your-toilet-could-talk-2">What if your toilet could talk?</h3>
+<p>The overarching prompt for this story is:</p>
+<p style="text-align: center"><i>“What if your toilet could talk?”</i></p>
+<p>But more specifically,</p>
+<p style="text-align: center"><i>“If your toilet could talk, what would it say to <b>you</b>?”</i></p>
+<p>This might be a little confusing or weird at first. <em>Of course toilets don’t talk - at least in the US.</em> But, I promise that if you bear with the absurdity of it for a little, the reason for this prompt will become clear.</p>
+<p>The goal of this prompt is not to be flashy or dramatic - unless you feel that would be accurate to your toilet. A story can be well-written <em>because</em> of its blandness, not just in spite of it. Choose what vibe works for you.</p>
+<h3 id="a-mise-en-scene">a. Mise-en-scene</h3>
+<p>To do the first part, we’re going to borrow a concept from filmmaking called <a href="https://en.wikipedia.org/wiki/Mise-en-sc%C3%A8ne"><strong>“mise-en-scene” (click for Wikipedia)</strong></a> or “mise-en-place”. They are two French terms that roughly mean “what’s placed in the scene”, “the setup”, or “everything in its place”, respectively. To write a really good narrative, one must first be clear on what the characters and setting are like.</p>
+<p>So first, I want everyone to pick a toilet to focus on for this narrative. It should be one you use often - the one in your apartment, one in the communal bathroom of your dorm, or even a public toilet that’s often a part of your daily routine - specifically for pooping. I want you to focus on one specific toilet, down to the specific stall. Go ahead and write down the location in your document at the top.</p>
+<p>Then, I want you to imagine the following scenario. Imagine you’re in your daily routine or whenever you use this toilet. Pick a specific time that feels right to you and matches your memory. You walk into the bathroom and you either walk to the toilet or the specific stall it’s in. I want you to describe these things:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>The design of the bathroom</strong></th>
+<th style="text-align:left"><strong>The sounds in the bathroom</strong></th>
+<th style="text-align:left"><strong>The smells in the bathroom</strong></th>
+<th style="text-align:left"><strong>The subjective “feel” of the bathroom</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">- What does the toilet look like? Does it have a tank? Is it industrial? Is it clean? Is it ergonomic? How it feel to the touch, even if you only sit on it?<br>- What are the textures like in the bathroom? What color are the walls, and what are they made of? What texture is the floor? What color is the piping/sink or door handles?<br>- What are the light sources in the bathroom? Where are they located? How bright are they? What color is it? Are there mirrors or other reflective surfaces?<br>- What objects other than the toilet are in the bathroom? Is the toilet paper holder stocked? Is there paper or other trash on the floor? Is there a sink, a soap dispenser, free tampons/pads, a paper towel dispenser, etc.?</td>
+<td style="text-align:left">- What’s the ambient noise like? Is the AC loud? Is it quiet and peaceful? Are there other users making noise? Are the other fixtures making noise?<br>- What do the touchpoints sound like? How loud is the door opening? Does the stall door rattle? Does the toilet seat creak as you sit on it?<br>- What’s the space like in the bathroom? If you shouted something, would it echo or reverberate?</td>
+<td style="text-align:left">- Are there any smells of bodily residues left behind? Or anything that smells dank or musty?<br>- Are there any smells of cleaning products or other artificial fragrances?<br>- Do the room materials themselves smell? Does the smell of water salts smell at all?<br>- Are there any other smells?</td>
+<td style="text-align:left">- How does the bathroom feel privacy-wise? Do you feel safe in the bathroom? Are there stall door gaps? If the bathroom accommodates multiple users, do you feel friendly with the other people that use it?<br>- When you use the bathroom, do you feel like you can relax? Do you have the space to take a breather? Or does the bathroom feel like a place to do your business and leave?<br>- What’s the vibe check on this bathroom? How does it make you feel?<br>- Anything else about the bathroom that I didn’t list so far</td>
+</tr>
+</tbody>
+</table>
+<p>Make sure to write this in narrative or prose style, even if the questions are in bullet points.</p>
+<h3 id="b-naming">b. Naming</h3>
+<p>Now, I want you to give some personality to this toilet.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Voice</strong></th>
+<th style="text-align:left"><strong>Personality</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Give this toilet a name. It can be a human name, it can be a product name, it can be anything in between. Just whatever feels right.</td>
+<td style="text-align:left">What kind of voice does this toilet use when it speaks? Is it an older feminine voice? A younger masculine voice? Something completely unflavored? Up to you.</td>
+<td style="text-align:left">This might be a little silly, but write some personality words for this toilet. The <a href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"><strong>MBTI types (click for Wikipedia)</strong></a> are a good place to start.</td>
+</tr>
+</tbody>
+</table>
+<p>And yeah, toilets don’t talk. Probably. But the point of this part is to <strong>go with your gut</strong> - whether that pun was intended depends on if you laughed or not.</p>
+<h3 id="c-the-scenario">c. The scenario</h3>
+<p>OK. So now, the meat of the scenario.</p>
+<p>You walk into the room. The toilet, familiar by name with you, says hi. Or, depending on its personality type, maybe it just sits still in its porcelain body awaiting you.</p>
+<p>For this part, I want you to write a dialogue between you and the toilet, as you use the toilet to poop as part of your daily routine. Both you and the toilet can say as much or as little as you want, and you can pick anything to say that feels natural. Throughout this dialogue, I want you to hit the following broad events:</p>
+<ul>
+<li><strong>Walking in</strong>: how does the toilet greet you, if at all? How do you react? What’s it like preparing for use?</li>
+<li><strong>Doing your business</strong>: What happens during this stage? (Up to you)</li>
+<li><strong>Getting ready to leave</strong>: What’s the cleanup like? Do you flush the toilet or does it flush itself? What’s it like preparing to leave?</li>
+</ul>
+<p>This doesn’t have to be a graphic description - but if you feel like it, more power to you. If you and the toilet spend 10 minutes talking about the A/C, so be it. Go where the conversation takes you - but keep the timing accurate to how you’d use the toilet in real life.</p>
+<h3 id="d-self-reflection">d. Self-reflection</h3>
+<p>Now, a section to reflect on what the toilet said to you in the dialogue.</p>
+<ul>
+<li>Do you agree with what it said?</li>
+<li>How did it make you feel?</li>
+<li>Do you wish it said something it didn’t, or didn’t say something it did?</li>
+<li>If you could say something that you didn’t in the dialogue, what would you say?</li>
+<li>Is this a toilet you enjoy using, regardless of whether you’re forced into it by choice or not?</li>
+</ul>
+<p>After this, take a minute to read what you wrote. <strong>You're done!</strong></p>
+<h2 id="2-the-sharing-part">2. The sharing part</h2>
+<p>OK. Now, the really fun part. Sharing. However, I know people might be a bit antsy about sharing poop stories with a bunch of people they just met, so we’ll ease into this. First, a single push, then another, until the entire thing is out in the open.</p>
+<p>First, let’s start with a few questions.</p>
+<ul>
+<li>A simple one. How many people <strong>enjoyed</strong> using their toilet? How many people <strong>disliked</strong> using their toilet? How many people felt <strong>indifferent</strong>?</li>
+<li>Now some personality questions. How many people had a toilet that was <strong>judgy</strong>?</li>
+<li>How many people had a toilet that was <strong>openly supportive</strong> or <strong>encouraging</strong>?</li>
+<li>How many people had a toilet that was <strong>quietly accepting</strong>?</li>
+<li>Who had a toilet that didn’t care about the ‘output’ at all and just talked about something else the whole time?</li>
+<li>How many of you were <strong>friendly</strong> with your toilet?</li>
+<li>How many of you were <strong>friends</strong> <em>(notice the difference)</em> with your toilet?</li>
+</ul>
+<p>Now, would anyone like to read their bathroom setting out loud (the first part with the sensory details)?</p>
+<p>Now that we have a few settings… would anyone like to read their dialogue out loud? You’re welcome to read the entire thing yourself, or ask someone else in the room to read one of the roles while you read the other.</p>
+<p><em>(And continue on like this until you're satisfied)</em></p>
+<h2 id="post-script">Post-script</h2>
+<p>This activity was originally designed as a way to bridge the gap between our analytical minds and our physical bodies. By anthropomorphizing the toilet, we bypass the &quot;taboo&quot; filter and engage with our environment in a way that is both silly and profound.</p>
+<p>If you found this exercise helpful, we'd love to hear your thoughts! Join our community on <a href="/blog/discordlivefeb10"><strong>Discord</strong></a> to share more of your mindful pooping journey.</p>
+
+<ul class="links-nextprev"><li class="links-nextprev-next"><a href="/blog/whythatpoopclub/"><b>Next</b> →<br>Why &quot;that poop club&quot;?</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<!-- This page `/blog/whatiftoilettalked/` was built on 2026-02-10T18:16:38.539Z -->
+		<script type="module" src="/dist/TwIhqhddDa.js"></script>
+		
+	</body>
+</html>

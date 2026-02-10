@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Blog Title</title>
+  <subtitle>This is a longer description about your blog.</subtitle>
+  <link href="https://example.com/feed/feed.xml" rel="self" />
+  <link href="https://example.com/" />
+  <updated>2026-02-10T00:00:00Z</updated>
+  <id>https://example.com/</id>
+  <author>
+    <name>Your Name</name>
+  </author>
+  <entry>
+    <title>Discord now live!</title>
+    <link href="https://example.com/blog/discord/" />
+    <updated>2026-02-10T00:00:00Z</updated>
+    <id>https://example.com/blog/discord/</id>
+    <content type="html">&lt;p&gt;Hi everyone! Tim here again. We&#39;re excited to announce that &lt;strong&gt;&amp;quot;that poop club&amp;quot;&lt;/strong&gt; has a Discord server now! 🎉&lt;/p&gt;
+&lt;a href=&quot;https://discord.gg/GSnTExra9v&quot; class=&quot;discord-button&quot;&gt;
+  Join the Discord Server
+&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You will need to introduce yourself in the server and wait for a mod to approve you to gain access to the rest of the server.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Why &quot;that poop club&quot;?</title>
+    <link href="https://example.com/blog/whythatpoopclub/" />
+    <updated>2026-02-09T00:00:00Z</updated>
+    <id>https://example.com/blog/whythatpoopclub/</id>
+    <content type="html">
+&lt;p&gt;We’re &lt;strong&gt;“that poop club”&lt;/strong&gt;, and we do exactly what we say on the tin. Roughly once a week, we gather up and talk about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The things we cooked/ate this week&lt;/li&gt;
+&lt;li&gt;The things we pooped&lt;/li&gt;
+&lt;li&gt;And how it made us feel!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&#39;m Tim, the current leader and the person writing this blog post. And yeah, poop is a subject that often gets a lot of gag reactions or just &lt;em&gt;&amp;quot;haha poop&amp;quot;&lt;/em&gt;, but this club is &lt;em&gt;slightly&lt;/em&gt; more serious than that, and in the next few paragraphs, I&#39;ll tell you why.&lt;/p&gt;
+&lt;h2 id=&quot;our-goal&quot;&gt;Our goal&lt;/h2&gt;
+&lt;p&gt;So, why &lt;strong&gt;“that poop club”&lt;/strong&gt;? I’ve spoken about before how this club is kind of a machine learning theory probe involving human behavior, and that part is still true for me.&lt;/p&gt;
+&lt;p&gt;But I think the more immediate goal that’s beneficial to all of us — and why I’m not just holing up in my apartment lab manipulating PyTorch tensors — is that I hope that we, as a club, &lt;strong&gt;can develop a way to live healthier lives that’s easy to pick up and rewarding to master&lt;/strong&gt;, no matter where you’re in your journey of life. And personally, I think that starts with eating right, because food is the fuel for anything else you wanna do.&lt;/p&gt;
+&lt;h2 id=&quot;but-wait-isnt-diet-optimization-a-solved-problem&quot;&gt;But wait! Isn&#39;t diet optimization a solved problem?&lt;/h2&gt;
+&lt;p&gt;However, one question many people have when they hear that is: &lt;em&gt;Can’t I just ask a dietitian to tell us the answers or to give us nutritional advice? Or just look on MyFitnessPal?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;And yes, we already have tons of food health experts in the world. But in truth, the answer is closer to... &lt;strong&gt;maybe?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The reason we&#39;re not at a &amp;quot;yes&amp;quot; often depends on conflating “overall utility” with “evidence-backed nutritional scoring”. What do I mean by that?&lt;/p&gt;
+&lt;h3 id=&quot;the-battle-between-healthy-and-happy&quot;&gt;The battle between healthy and happy&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Healthy&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Happy&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/qQU6OhxtI8-850.avif 850w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/qQU6OhxtI8-850.webp 850w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/whythatpoopclub/qQU6OhxtI8-850.png&quot; alt=&quot;A bowl of healthy food.&quot; width=&quot;850&quot; height=&quot;850&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/AJIbsXxZse-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/AJIbsXxZse-1024.webp 1024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/whythatpoopclub/AJIbsXxZse-1024.png&quot; alt=&quot;Four cups of boba tea.&quot; width=&quot;1024&quot; height=&quot;1024&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;The battle between healthy...&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;... and happy.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Technically, if we all went to Walmart right now with a dietitian, I’m sure we could write an evidence-based meal plan that gives you &amp;quot;perfect nutrients&amp;quot; using only ingredients in the store.&lt;/p&gt;
+&lt;p&gt;But the challenge comes when I remember everything &lt;em&gt;else&lt;/em&gt; I have to do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What about going out to a pizza place or for boba tea with friends?&lt;/li&gt;
+&lt;li&gt;What if my lab is due at 11:59pm and I don’t have time to make poached tilapia with brussels sprouts? I’ll just eat dining court chicken nuggets instead.&lt;/li&gt;
+&lt;li&gt;Or just plain, “I don’t want to spend 2 hours cooking a day just to eat bitter, flavorless mush for the fourth time this week.”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If the “perfect nutrition” meal plan compromises all the things you actually want to do or misses the scenarios you actually deal with, &lt;strong&gt;is it really perfect?&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;the-neuromorphological-divide&quot;&gt;The Neuromorphological Divide&lt;/h3&gt;
+&lt;p&gt;And so, we arrive at what I call the &lt;strong&gt;Neuromorphological Divide&lt;/strong&gt;: the gap between how humans &lt;em&gt;think&lt;/em&gt; they think and how humans &lt;em&gt;actually&lt;/em&gt; think.&lt;/p&gt;
+&lt;div style=&quot;display: flex; gap: 10%; margin: 30px 0; padding: 0 5%; align-items: flex-start;&quot;&gt;
+  &lt;div style=&quot;width: 40%;&quot;&gt;
+    &lt;h4 style=&quot;text-align: center; margin-top: 0; color: #555;&quot; id=&quot;how-we-think-we-think&quot;&gt;How we &lt;em&gt;think&lt;/em&gt; we think&lt;/h4&gt;
+    &lt;p style=&quot;line-height: 1.6;&quot;&gt;“I want to contribute great things to this world, so I will eat grilled chicken and salad every day so I can be the best version of me.”&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;width: 40%;&quot;&gt;
+    &lt;h4 style=&quot;text-align: center; margin-top: 0; color: #555;&quot; id=&quot;how-we-actually-think&quot;&gt;How we &lt;em&gt;actually&lt;/em&gt; think&lt;/h4&gt;
+    &lt;p style=&quot;line-height: 1.6;&quot;&gt;“&lt;i&gt;Hahaha&lt;/i&gt; &lt;b&gt;SKIBIDI TOILET!&lt;/b&gt; &lt;i&gt;Tralalero Tralala...&lt;/i&gt; &lt;u&gt;6&lt;/u&gt; &lt;u&gt;7&lt;/u&gt;. Yo, finna go &lt;i&gt;rizz up that &lt;b&gt;gyatt.&lt;/b&gt;&lt;/i&gt;”&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If you read self-help, self-improvement, or psychotherapy books, they often assume humans can run on logical ‘reasoning chains’ like modern large language models:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“I have the goal XYZ and ABC constraints; the optimal solution is a salad, so therefore I will eat a salad and be happy.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But actual studies on human eating patterns—including one we did last semester for our HCI project—suggest that the ‘inner monologue’ of dieting is mostly a surface-level illusion.&lt;/p&gt;
+&lt;p&gt;When we surveyed people about their actual eating process, they largely relied on &lt;strong&gt;habit, taste, and convenience&lt;/strong&gt;, with bits and pieces of random theories thrown in. Compared to a professional nutrition degree, they appeared to know almost nothing. However, many of these people were at least moderately healthy and could clearly function. If you followed the logic of self-help books, you’d think they would be dead.&lt;/p&gt;
+&lt;h3 id=&quot;the-habit-alignment-question&quot;&gt;The habit alignment question&lt;/h3&gt;
+&lt;p&gt;So, now we arrive at a slightly modified form of the question this club wants to solve:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;“How do we make a diet plan which is sustainable, efficient, and compatible with the habit-based reasoning structure of the brain?”&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Or, more simply: &lt;em&gt;“How do we make eating well feel like the obvious choice, instead of a compromise?”&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;positive-feedback-loops&quot;&gt;(Positive) Feedback loops&lt;/h3&gt;
+&lt;div style=&quot;text-align: center; margin: 2rem 0;&quot;&gt;
+  &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/0VJC5zYokM-2860.avif 2860w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/0VJC5zYokM-2860.webp 2860w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/whythatpoopclub/0VJC5zYokM-2860.png&quot; alt=&quot;Feedback loop diagram.&quot; style=&quot;max-width: 80%;&quot; width=&quot;2860&quot; height=&quot;1416&quot;&gt;&lt;/picture&gt;
+&lt;/div&gt;
+&lt;p&gt;To effectively form habits, we need a &lt;strong&gt;feedback loop&lt;/strong&gt;, which consists of an action (eating) and a measurement/feedback source. Basically, most positive feedback loops follow a 4-step process:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Action&lt;/strong&gt;: You do something to achieve a goal.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Response&lt;/strong&gt;: You wait for the environment to respond.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measurement&lt;/strong&gt;: You measure the result (how far was I off the goal).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improvement&lt;/strong&gt;: You improve your next choice of action.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Take learning to parallel park. The first time, you’re OK at best. But then you practice—you try to park, you get out, check the lines, and adjust: “maybe I’ll go more to the left this time.”&lt;/p&gt;
+&lt;p&gt;Obviously, if we want to implement a feedback loop with dietary health, eating is our action. But what is the response/measurement?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Taste&lt;/strong&gt; can be easily hijacked.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Following a diet&lt;/strong&gt; is often the worst mechanism because it ignores your body’s signals until burnout.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Body weight&lt;/strong&gt; or &lt;strong&gt;physical strength&lt;/strong&gt; take too long to update.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;our-slogan&quot;&gt;Our slogan&lt;/h2&gt;
+&lt;div class=&quot;slogan-diagram&quot; aria-label=&quot;Good poops feel good slogan with annotations&quot;&gt;
+  &lt;div class=&quot;slogan-main-text&quot;&gt;
+    &lt;span class=&quot;slogan-word-wrapper&quot;&gt;&lt;span class=&quot;slogan-underline&quot;&gt;Good&lt;/span&gt;&lt;/span&gt;
+    &lt;span&gt;poops&lt;/span&gt;
+    &lt;span class=&quot;slogan-caret-wrapper&quot;&gt;
+      &lt;span class=&quot;slogan-caret&quot;&gt;^&lt;/span&gt;
+      &lt;span class=&quot;slogan-should&quot;&gt;“should”&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span&gt;feel&lt;/span&gt;
+    &lt;span class=&quot;slogan-word-wrapper&quot;&gt;&lt;span class=&quot;slogan-underline&quot;&gt;good.&lt;/span&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;slogan-annotations&quot;&gt;
+    &lt;div class=&quot;slogan-annotation&quot;&gt;
+      &lt;div class=&quot;slogan-arrow slogan-arrow-left&quot;&gt;&lt;/div&gt;
+      “good” as in “poops that are well-formed, well-digested, and resultant from a healthy diet that empowers you to do what you want”
+    &lt;/div&gt;
+    &lt;div class=&quot;slogan-annotation&quot;&gt;
+      &lt;div class=&quot;slogan-arrow slogan-arrow-right&quot;&gt;&lt;/div&gt;
+      “good” as in “pleasurable, feeling good, enjoyable, comforting”
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Now, of course, you could probably guess I was gonna say “poop is a good feedback source”. But even though poop is the result at the end of the digestive process, it might not seem obvious why poop is a good candidate for a feedback source - especially when it’s often “just a brown paste”.&lt;/p&gt;
+&lt;p&gt;This slogan will start to help explain why - and it manages to be compact because it’s using two meanings of &lt;em&gt;good&lt;/em&gt; simultaneously.&lt;/p&gt;
+&lt;h4 id=&quot;1-objectively-good&quot;&gt;1. Objectively Good&lt;/h4&gt;
+&lt;p&gt;This is the kind of poop that results from a healthy diet which gives you the nutrients and energy to accomplish what you want. It’s the kind of poop a dietitian would look at and say “this is healthy.” Broadly, these result from &lt;strong&gt;efficient digestion&lt;/strong&gt;: they pass easily, they don’t smear, and they’re well-hydrated.&lt;/p&gt;
+&lt;h4 id=&quot;2-feeling-good&quot;&gt;2. Feeling Good&lt;/h4&gt;
+&lt;p&gt;This is the &amp;quot;subjectively good&amp;quot; poop—the kind that makes you say “yeah, that was a good one.” The one where you wipe once and it comes back clean. The one that makes you feel relieved and happy.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;“should”&lt;/strong&gt; is the most important - but &lt;em&gt;shaky&lt;/em&gt; - part. It comes from the question:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“how did humans learn to have emotions? To feel happy around things or people they like and sad when they leave? To get hot and bothered in the stirrings of night, and cold and dull after?”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Many believe “emotions are but self-reinforcing side effects of past evolutionary decisions - in simple terms, the more doing something allows you to survive, the more you like it.” So it stands to reason that these two types of poop could or should be linked in an ideal world.&lt;/p&gt;
+&lt;p&gt;Problem is, humans are diverse. &lt;strong&gt;REALLY&lt;/strong&gt; diverse. And how do we say things that make sense for poop feelings without resorting to degenerate cases like “constipation feels good”, or just blindly saying everyone feels the same way?&lt;/p&gt;
+&lt;h2 id=&quot;why-do-good-poops-feel-good-or-not&quot;&gt;Why do good poops feel good (or not)?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Food is only one part of the equation.&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Physical&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Mental&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Emotional&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/qQU6OhxtI8-850.avif 850w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/qQU6OhxtI8-850.webp 850w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/whythatpoopclub/qQU6OhxtI8-850.png&quot; alt=&quot;A bowl of healthy food.&quot; width=&quot;850&quot; height=&quot;850&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/C_NET-LEXa-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/C_NET-LEXa-1024.webp 1024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/whythatpoopclub/C_NET-LEXa-1024.png&quot; alt=&quot;A person meditating on a toilet.&quot; width=&quot;1024&quot; height=&quot;1024&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/R87JqBWVrZ-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/R87JqBWVrZ-1024.webp 1024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/whythatpoopclub/R87JqBWVrZ-1024.png&quot; alt=&quot;A person with tape on their mouth, representing taboo.&quot; width=&quot;1024&quot; height=&quot;1024&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;em&gt;Good foods lead to good poops, but…&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;em&gt;… you must also have the mental space to appreciate your poop…&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;em&gt;… and reducing the act to taboo or grossness only removes this space.&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;So, what factors affect whether a poop is &amp;quot;good&amp;quot;?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Physical reasons&lt;/strong&gt;: Poop is a byproduct of digestion, among other bodily processes. As such, what you eat and what you drink are big factors in poop composition. A few examples:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Poop that’s under-fibered can be small and hard to efficiently push out, like mashed potato.&lt;/li&gt;
+&lt;li&gt;Poop that’s under-hydrated becomes hard like a rock.&lt;/li&gt;
+&lt;li&gt;Poop that contains too much fat becomes greasy, mushy, and can even float in the bowl just like oil floats on water.&lt;/li&gt;
+&lt;li&gt;And bad smells can sometimes be a symptom of over-fermentation or inefficient microbial digestion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Notice, I’m not using many medical terms here - &lt;em&gt;things behave inside your body much like they do outside it.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Mental reasons&lt;/strong&gt;: This is your &amp;quot;mental hardware&amp;quot;, because it refers to the macro-structure and health of your brain. To have a good poop, you need both the capacity to make it/expel it &lt;em&gt;and&lt;/em&gt; the ability to notice the results of your work. Improving your mental health - via sleep, eating vitamins, dopamine regulation, and more - ensures your good poops actually feel good to you.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Emotional reasons&lt;/strong&gt;: This refers to the thought processes (micro-structure) of your brain. Taboo and embarassment, two common kinds of thoughts people have about poop, often stop people from even starting this journey. The idea that poop is &amp;quot;gross&amp;quot; leads people to flush it away the second it&#39;s out (or not engage fully with the exercise), missing the feedback entirely.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;but-why-so-vague&quot;&gt;But... why so vague?&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Medical Journals&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Anecdotes&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Online Resources&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/KpMHEKRu-O-800.avif 800w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/KpMHEKRu-O-800.webp 800w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/whythatpoopclub/KpMHEKRu-O-800.png&quot; alt=&quot;A medical research book.&quot; width=&quot;800&quot; height=&quot;800&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/F6OGvnm5Ml-1300.avif 1300w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/F6OGvnm5Ml-1300.webp 1300w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/whythatpoopclub/F6OGvnm5Ml-1300.jpeg&quot; alt=&quot;Two people talking and listening.&quot; width=&quot;1300&quot; height=&quot;1300&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/LuFd9vUMVu-750.avif 750w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/whythatpoopclub/LuFd9vUMVu-750.webp 750w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/whythatpoopclub/LuFd9vUMVu-750.png&quot; alt=&quot;A web browser with medical information.&quot; width=&quot;750&quot; height=&quot;750&quot;&gt;&lt;/picture&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;em&gt;Inaccessible and expensive ($thousands per year).&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;em&gt;Lost to time the moment it&#39;s spoken.&lt;/em&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;em&gt;Over-clinical, over-simplified, or terrifying.&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;That said, you may have noticed that my explanations were a little vague. Or patched together. And the gap is that there is no publicly accessible, commonly known in-depth single resource on “why good poops feel good” or even “what makes poops healthy in general”. Yes, we have endless textbooks and papers on Markov Chain Monte Carlo, Quantum Field Theory, or cognitive psychology, but 200,000+ years of pooping hasn&#39;t produced modern, accessible knowledge for the everyman.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Medical journals&lt;/strong&gt; are locked behind paywalls - if you know their names, which most people don&#39;t.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anecdotes&lt;/strong&gt; can help a person at a time, but they&#39;re lost if they&#39;re never recorded.&lt;/li&gt;
+&lt;li&gt;And &lt;strong&gt;Online resources&lt;/strong&gt; like WebMD sometimes offer good advice, but more often make you think you have 50 diseases you can&#39;t pronounce.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;a-call-to-action&quot;&gt;A call to action&lt;/h2&gt;
+&lt;p&gt;So that&#39;s where we come in. If we don’t have these resources yet, what would it take to create them?&lt;/p&gt;
+&lt;p&gt;If that sounds like something interesting to you, hop on over to &lt;a href=&quot;https://example.com/blog/discordlivefeb10&quot;&gt;&lt;strong&gt;this blog post&lt;/strong&gt;&lt;/a&gt;, which contains our Discord link.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>What if your toilet could talk?</title>
+    <link href="https://example.com/blog/whatiftoilettalked/" />
+    <updated>2026-02-02T00:00:00Z</updated>
+    <id>https://example.com/blog/whatiftoilettalked/</id>
+    <content type="html">&lt;p&gt;Welcome to &lt;strong&gt;&amp;quot;that poop club&amp;quot;&lt;/strong&gt;! This is an icebreaker activity for anyone new to the world of pooping mindfully.&lt;/p&gt;
+&lt;p&gt;For maximum effect, it&#39;s recommended to gather a few friends and do this activity in a group. However, if you&#39;re doing it solo, it&#39;s totally fine too!&lt;/p&gt;
+&lt;h2 id=&quot;about-this-activity&quot;&gt;About this activity&lt;/h2&gt;
+&lt;p&gt;This activity has two parts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;An independent writing section&lt;/strong&gt;, where you write a story. Anything you write at this stage will only be seen by yourself unless you decide to share it later, so feel free to express yourselves!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A sharing section&lt;/strong&gt;, where you share (parts of) your story with others (or reflect on them yourself)! It’s not a contest, but it should will reveal some interesting human behaviors to you and your groupmates.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It&#39;s important that for the sharing section, no one is pressured into sharing. This ensures everyone remains comfortable with the exercise and has space to reflect mindfully, instead of constantly worrying about getting picked.&lt;/p&gt;
+&lt;p&gt;Also, this might be tempting, but please &lt;strong&gt;do not use large language models&lt;/strong&gt; for this exercise - at least for the writing part. Using LLMs for writing makes it harder for you to think and reflect autonomously - plus, when you share, everyone will be able to tell what you wrote is LLM generated. Probably.&lt;/p&gt;
+&lt;h2 id=&quot;1-the-writing-part&quot;&gt;1. The writing part&lt;/h2&gt;
+&lt;h3 id=&quot;what-if-your-toilet-could-talk&quot;&gt;What if your toilet could talk?&lt;/h3&gt;
+&lt;p&gt;The overarching prompt for this story is:&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;i&gt;“What if your toilet could talk?”&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;But more specifically,&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;i&gt;“If your toilet could talk, what would it say to &lt;b&gt;you&lt;/b&gt;?”&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;This might be a little confusing or weird at first. &lt;em&gt;Of course toilets don’t talk - at least in the US.&lt;/em&gt; But, I promise that if you bear with the absurdity of it for a little, the reason for this prompt will become clear.&lt;/p&gt;
+&lt;p&gt;The goal of this prompt is not to be flashy or dramatic - unless you feel that would be accurate to your toilet. A story can be well-written &lt;em&gt;because&lt;/em&gt; of its blandness, not just in spite of it. Choose what vibe works for you.&lt;/p&gt;
+&lt;h3 id=&quot;a-mise-en-scene&quot;&gt;a. Mise-en-scene&lt;/h3&gt;
+&lt;p&gt;To do the first part, we’re going to borrow a concept from filmmaking called &lt;a href=&quot;https://en.wikipedia.org/wiki/Mise-en-sc%C3%A8ne&quot;&gt;&lt;strong&gt;“mise-en-scene” (click for Wikipedia)&lt;/strong&gt;&lt;/a&gt; or “mise-en-place”. They are two French terms that roughly mean “what’s placed in the scene”, “the setup”, or “everything in its place”, respectively. To write a really good narrative, one must first be clear on what the characters and setting are like.&lt;/p&gt;
+&lt;p&gt;So first, I want everyone to pick a toilet to focus on for this narrative. It should be one you use often - the one in your apartment, one in the communal bathroom of your dorm, or even a public toilet that’s often a part of your daily routine - specifically for pooping. I want you to focus on one specific toilet, down to the specific stall. Go ahead and write down the location in your document at the top.&lt;/p&gt;
+&lt;p&gt;Then, I want you to imagine the following scenario. Imagine you’re in your daily routine or whenever you use this toilet. Pick a specific time that feels right to you and matches your memory. You walk into the bathroom and you either walk to the toilet or the specific stall it’s in. I want you to describe these things:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;&lt;strong&gt;The design of the bathroom&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;&lt;strong&gt;The sounds in the bathroom&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;&lt;strong&gt;The smells in the bathroom&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;&lt;strong&gt;The subjective “feel” of the bathroom&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;- What does the toilet look like? Does it have a tank? Is it industrial? Is it clean? Is it ergonomic? How it feel to the touch, even if you only sit on it?&lt;br&gt;- What are the textures like in the bathroom? What color are the walls, and what are they made of? What texture is the floor? What color is the piping/sink or door handles?&lt;br&gt;- What are the light sources in the bathroom? Where are they located? How bright are they? What color is it? Are there mirrors or other reflective surfaces?&lt;br&gt;- What objects other than the toilet are in the bathroom? Is the toilet paper holder stocked? Is there paper or other trash on the floor? Is there a sink, a soap dispenser, free tampons/pads, a paper towel dispenser, etc.?&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;- What’s the ambient noise like? Is the AC loud? Is it quiet and peaceful? Are there other users making noise? Are the other fixtures making noise?&lt;br&gt;- What do the touchpoints sound like? How loud is the door opening? Does the stall door rattle? Does the toilet seat creak as you sit on it?&lt;br&gt;- What’s the space like in the bathroom? If you shouted something, would it echo or reverberate?&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;- Are there any smells of bodily residues left behind? Or anything that smells dank or musty?&lt;br&gt;- Are there any smells of cleaning products or other artificial fragrances?&lt;br&gt;- Do the room materials themselves smell? Does the smell of water salts smell at all?&lt;br&gt;- Are there any other smells?&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;- How does the bathroom feel privacy-wise? Do you feel safe in the bathroom? Are there stall door gaps? If the bathroom accommodates multiple users, do you feel friendly with the other people that use it?&lt;br&gt;- When you use the bathroom, do you feel like you can relax? Do you have the space to take a breather? Or does the bathroom feel like a place to do your business and leave?&lt;br&gt;- What’s the vibe check on this bathroom? How does it make you feel?&lt;br&gt;- Anything else about the bathroom that I didn’t list so far&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Make sure to write this in narrative or prose style, even if the questions are in bullet points.&lt;/p&gt;
+&lt;h3 id=&quot;b-naming&quot;&gt;b. Naming&lt;/h3&gt;
+&lt;p&gt;Now, I want you to give some personality to this toilet.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Voice&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Personality&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;Give this toilet a name. It can be a human name, it can be a product name, it can be anything in between. Just whatever feels right.&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;What kind of voice does this toilet use when it speaks? Is it an older feminine voice? A younger masculine voice? Something completely unflavored? Up to you.&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;This might be a little silly, but write some personality words for this toilet. The &lt;a href=&quot;https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator&quot;&gt;&lt;strong&gt;MBTI types (click for Wikipedia)&lt;/strong&gt;&lt;/a&gt; are a good place to start.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;And yeah, toilets don’t talk. Probably. But the point of this part is to &lt;strong&gt;go with your gut&lt;/strong&gt; - whether that pun was intended depends on if you laughed or not.&lt;/p&gt;
+&lt;h3 id=&quot;c-the-scenario&quot;&gt;c. The scenario&lt;/h3&gt;
+&lt;p&gt;OK. So now, the meat of the scenario.&lt;/p&gt;
+&lt;p&gt;You walk into the room. The toilet, familiar by name with you, says hi. Or, depending on its personality type, maybe it just sits still in its porcelain body awaiting you.&lt;/p&gt;
+&lt;p&gt;For this part, I want you to write a dialogue between you and the toilet, as you use the toilet to poop as part of your daily routine. Both you and the toilet can say as much or as little as you want, and you can pick anything to say that feels natural. Throughout this dialogue, I want you to hit the following broad events:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Walking in&lt;/strong&gt;: how does the toilet greet you, if at all? How do you react? What’s it like preparing for use?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Doing your business&lt;/strong&gt;: What happens during this stage? (Up to you)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Getting ready to leave&lt;/strong&gt;: What’s the cleanup like? Do you flush the toilet or does it flush itself? What’s it like preparing to leave?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This doesn’t have to be a graphic description - but if you feel like it, more power to you. If you and the toilet spend 10 minutes talking about the A/C, so be it. Go where the conversation takes you - but keep the timing accurate to how you’d use the toilet in real life.&lt;/p&gt;
+&lt;h3 id=&quot;d-self-reflection&quot;&gt;d. Self-reflection&lt;/h3&gt;
+&lt;p&gt;Now, a section to reflect on what the toilet said to you in the dialogue.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do you agree with what it said?&lt;/li&gt;
+&lt;li&gt;How did it make you feel?&lt;/li&gt;
+&lt;li&gt;Do you wish it said something it didn’t, or didn’t say something it did?&lt;/li&gt;
+&lt;li&gt;If you could say something that you didn’t in the dialogue, what would you say?&lt;/li&gt;
+&lt;li&gt;Is this a toilet you enjoy using, regardless of whether you’re forced into it by choice or not?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After this, take a minute to read what you wrote. &lt;strong&gt;You&#39;re done!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-the-sharing-part&quot;&gt;2. The sharing part&lt;/h2&gt;
+&lt;p&gt;OK. Now, the really fun part. Sharing. However, I know people might be a bit antsy about sharing poop stories with a bunch of people they just met, so we’ll ease into this. First, a single push, then another, until the entire thing is out in the open.&lt;/p&gt;
+&lt;p&gt;First, let’s start with a few questions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A simple one. How many people &lt;strong&gt;enjoyed&lt;/strong&gt; using their toilet? How many people &lt;strong&gt;disliked&lt;/strong&gt; using their toilet? How many people felt &lt;strong&gt;indifferent&lt;/strong&gt;?&lt;/li&gt;
+&lt;li&gt;Now some personality questions. How many people had a toilet that was &lt;strong&gt;judgy&lt;/strong&gt;?&lt;/li&gt;
+&lt;li&gt;How many people had a toilet that was &lt;strong&gt;openly supportive&lt;/strong&gt; or &lt;strong&gt;encouraging&lt;/strong&gt;?&lt;/li&gt;
+&lt;li&gt;How many people had a toilet that was &lt;strong&gt;quietly accepting&lt;/strong&gt;?&lt;/li&gt;
+&lt;li&gt;Who had a toilet that didn’t care about the ‘output’ at all and just talked about something else the whole time?&lt;/li&gt;
+&lt;li&gt;How many of you were &lt;strong&gt;friendly&lt;/strong&gt; with your toilet?&lt;/li&gt;
+&lt;li&gt;How many of you were &lt;strong&gt;friends&lt;/strong&gt; &lt;em&gt;(notice the difference)&lt;/em&gt; with your toilet?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, would anyone like to read their bathroom setting out loud (the first part with the sensory details)?&lt;/p&gt;
+&lt;p&gt;Now that we have a few settings… would anyone like to read their dialogue out loud? You’re welcome to read the entire thing yourself, or ask someone else in the room to read one of the roles while you read the other.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(And continue on like this until you&#39;re satisfied)&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;post-script&quot;&gt;Post-script&lt;/h2&gt;
+&lt;p&gt;This activity was originally designed as a way to bridge the gap between our analytical minds and our physical bodies. By anthropomorphizing the toilet, we bypass the &amp;quot;taboo&amp;quot; filter and engage with our environment in a way that is both silly and profound.&lt;/p&gt;
+&lt;p&gt;If you found this exercise helpful, we&#39;d love to hear your thoughts! Join our community on &lt;a href=&quot;https://example.com/blog/discordlivefeb10&quot;&gt;&lt;strong&gt;Discord&lt;/strong&gt;&lt;/a&gt; to share more of your mindful pooping journey.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
